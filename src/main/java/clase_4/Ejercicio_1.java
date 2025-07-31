@@ -13,7 +13,7 @@ public class Ejercicio_1 {
         System.out.println(esPrimo(n) ? "El numero es primo" : "El numero no es primo");
     }
 
-    static boolean esPrimo(int n) {
+    public static boolean esPrimo(int n) {
         if (n <= 1) {
             return false;
         }
